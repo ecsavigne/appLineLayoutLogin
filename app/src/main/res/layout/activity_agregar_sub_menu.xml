@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agregarTarifaPago"
+    android:background="#202732">
+
+    <Spinner
+        android:id="@+id/idSpinner_SubMenu_Menu"
+        android:layout_width="142dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/idEditTxt_SubMenu_NombreSubMenu"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idSpinner_SubMenu_Menu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/strEditTxt_SubMenu_NombreSubMenu"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/colorEditJugadas"
+        android:textColorHint="#78909C"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/idImgBtn_SuBMenu_Menu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/idSpinner_SubMenu_Menu"
+        android:contentDescription="@string/strBtn_SubMenu_AgregarMenu"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        android:background="@drawable/button_rounded"
+        android:textColor="#DFDADA"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/idImgBtn_SuBMenu_Menu"
+        android:layout_marginEnd="199dp"
+        android:background="?android:attr/listDivider" />
+
+    <!-- android:layout_toEndOf="@+id/idSpinner_SubMenu_Permiso"
+        app:srcCompat="@android:drawable/ic_menu_add" />-->
+
+    <Button
+        android:id="@+id/idBtn_SubMenu_Registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEditTxt_SubMenu_NombreSubMenu"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_rounded"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:text="@string/strBtn_SubMenu_Crear"
+        android:textColor="#DFDADA" />
+
+    <ImageButton
+        android:id="@+id/idImgBtn_SubMenu_AgregarPermisos"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/strBtn_SubMenu_AgregarPermiso"
+        android:src="@android:drawable/ic_menu_add"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        android:background="@drawable/button_rounded"
+        android:textColor="#DFDADA"
+        />
+
+    <Spinner
+        android:id="@+id/idSpinner_SubMenu_Permiso"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toStartOf="@+id/idImgBtn_SubMenu_AgregarPermisos"
+        android:layout_toEndOf="@+id/idImgBtn_SuBMenu_Menu"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>

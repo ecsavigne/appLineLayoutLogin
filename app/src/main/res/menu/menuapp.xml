@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/strSubmMenu_Admin"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/idItem_Admin_Horarios"
+                android:title="@string/strItemHorarios_Admin" />
+            <item android:title="@string/strSubMenuAdmin_Grupo">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_Grupo_Asociar"
+                        android:title="@string/strItemAsociarPermisosGrupo" />
+                    <item
+                        android:id="@+id/idItem_Admin_Grupo_Crear"
+                        android:title="@string/strItemCrearGrupo" />
+                    <item
+                        android:id="@+id/idItem_Admin_Grupo_Modificar"
+                        android:title="@string/strItemModificarGrupo" />
+                    <item
+                        android:id="@+id/idItem_Admin_Grupo_Eliminar"
+                        android:title="@string/strItemEliminarGrupo" />
+                </menu>
+            </item>
+            <item android:title="@string/strSubMenuAdmin_Mostrar">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_Mostrar_ListaListero"
+                        android:title="@string/strItemMostrarListaListero" />
+                    <item
+                        android:id="@+id/idItem_Admin_Mostrar_TarifaPago"
+                        android:title="@string/strItemMostrarTarifaPago" />
+                    <item
+                        android:id="@+id/idItem_Admin_Mostrar_Tiro"
+                        android:title="@string/strItemMostrarTiro" />
+                </menu>
+            </item>
+            <item android:title="@string/strSubMenuAdmin_Menu">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_Menu_Crear"
+                        android:title="@string/strCrearMenu" />
+                    <item
+                        android:id="@+id/idItem_Admin_Menu_Modificar"
+                        android:title="@string/strModificarMenu" />
+                    <item
+                        android:id="@+id/idItem_Admin_Menu_Eliminar"
+                        android:title="@string/strEliminarMenu" />
+                </menu>
+            </item>
+            <item android:title="@string/strSubMenuAdmin_Permiso">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_Permiso_Crear"
+                        android:title="@string/strItemCrearPermiso" />
+                    <item
+                        android:id="@+id/idItem_Admin_Permiso_Modificar"
+                        android:title="@string/strItemModificarPermiso" />
+                    <item
+                        android:id="@+id/idItem_Admin_Permiso_Eliminar"
+                        android:title="@string/strItemEliminarPermiso" />
+                </menu>
+            </item>
+            <item android:title="@string/strSubMenuAdmin_SubMenu">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_SubMenu_Crear"
+                        android:title="@string/strItemCrearSubMenu" />
+                    <item
+                        android:id="@+id/idItem_Admin_SubMenu_Modificar"
+                        android:title="@string/strItemModificarSubMenu" />
+                    <item
+                        android:id="@+id/idItem_Admin_SubMenu_Eliminar"
+                        android:title="@string/strItemEliminarSubMenu" />
+                </menu>
+            </item>
+            <item android:title="@string/strSubMenuRegistrar">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_Registrar_Tiro"
+                        android:title="@string/strItemRegistrarTiro" />
+                    <item
+                        android:id="@+id/idItem_Admin_Registrar_TarifaPago"
+                        android:title="@string/strItemRegistrarTarifaPago" />
+                </menu>
+            </item>
+            <item android:title="@string/strSubMenuUsuario">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Admin_Usuario_Bloquear"
+                        android:title="@string/strItemUsuarioBloq" />
+                    <item
+                        android:id="@+id/idItem_Admin_Usuario_Desbloquear"
+                        android:title="@string/strItemUsuarioDesbloq" />
+                    <item
+                        android:id="@+id/idItem_Admin_Usuario_Registrar"
+                        android:title="@string/strItemUsuarioRegistrar" />
+                    <item
+                        android:id="@+id/idItem_Admin_Usuario_Modificar"
+                        android:title="@string/strItemUsuarioModificar" />
+                    <item
+                        android:id="@+id/idItem_Admin_Usuario_Eliminar"
+                        android:title="@string/strItemUsuarioEliminar" />
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+    <item
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/strSubMenu_Listero"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/idItem_Listero_GralTiro"
+                android:title="@string/strSubItemListero_GralTiro" />
+            <item android:id="@+id/idItem_Listero_Mostrar"
+                android:title="@string/strItemListeroMostrar">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Listero_MisList"
+                        android:title="@string/strItemUsuarioMisListas" />
+                    <item
+                        android:id="@+id/idItem_Listero_MisBotes"
+                        android:title="@string/strItemUsuarioMisBotes" />
+                    <item
+                        android:id="@+id/idItem_Listero_ShowClose"
+                        android:title="@string/strSubItemListero_ShowClose" />
+                </menu>
+            </item>
+            <item android:id="@+id/idItem_Listero_Registrar"
+                android:title="@string/strItemListerosRegistrar">
+                <menu>
+                    <item
+                        android:id="@+id/idItem_Listero_Candado"
+                        android:title="@string/strItemUsuarioJugarCandado" />
+                    <item
+                        android:id="@+id/idItem_Listero_Centena"
+                        android:title="@string/strItemUsuarioJugarCentena" />
+                    <item
+                        android:id="@+id/idItem_Listero_Decena"
+                        android:title="@string/strItemUsuarioJugarDecena" />
+                    <item
+                        android:id="@+id/idItem_Listero_Multiple"
+                        android:title="@string/strItemUsuarioJugarMultiple" />
+                    <item
+                        android:id="@+id/idItem_Listero_Parlet"
+                        android:title="@string/strItemUsuarioJugarParlet" />
+                    <item
+                        android:id="@+id/idItem_Listero_Simple"
+                        android:title="@string/strItemUsuarioJugadaSimple" />
+                    <item
+                        android:id="@+id/idItem_Listero_Terminal"
+                        android:title="@string/strItemUsuarioJugarTerminal" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

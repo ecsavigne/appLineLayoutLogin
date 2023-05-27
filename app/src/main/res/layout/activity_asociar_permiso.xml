@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".asociarPermisoGrupo"
+    android:background="#202732">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="79dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:textColor="@color/colorEditJugadas"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/spinner"
+        android:contentDescription="@string/strBtn_Grupo_Asociar_Agregar"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:ignore="ImageContrastCheck"
+        android:background="@drawable/button_rounded"
+        android:textColor="#DFDADA"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="155dp"
+        android:layout_height="291dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:background="@color/purple_500"
+        android:ems="10"
+        android:gravity="start|top|left"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="76dp"
+        android:layout_toEndOf="@+id/editTextTextMultiLine"
+        android:background="@drawable/button_rounded"
+        android:contentDescription="@string/strAgregar"
+        android:minHeight="48dp"
+        android:textColor="#DFDADA"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/editTextTextMultiLine"
+        android:background="@drawable/button_rounded"
+        android:contentDescription="@string/strEliminar"
+        android:minHeight="48dp"
+        android:textColor="#DFDADA"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <EditText
+        android:layout_width="155dp"
+        android:layout_height="291dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:background="@color/purple_500"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/background_dark"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints=""
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextMultiLine"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/strBtn_Grupo_AgregarPermiso"
+        android:background="@drawable/button_rounded"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:textColor="#DFDADA"/>
+
+</RelativeLayout>

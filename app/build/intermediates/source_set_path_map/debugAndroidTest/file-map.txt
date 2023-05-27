@@ -1,0 +1,4 @@
+com.example.applinelayoutlogin.test.app-androidTest-0 /home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/build/generated/res/resValues/androidTest/debug
+com.example.applinelayoutlogin.test.app-mergeDebugAndroidTestResources-1 /home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.applinelayoutlogin.test.app-mergeDebugAndroidTestResources-2 /home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.applinelayoutlogin.test.app-merged_res-3 /home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/build/intermediates/merged_res/debugAndroidTest

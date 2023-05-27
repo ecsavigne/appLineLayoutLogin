@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_txtVie_regusr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202732"
+    tools:context=".crearUsuario">
+
+    <EditText
+        android:id="@+id/id_etxt_usr_regusr"
+        android:layout_width="387dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="180dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/strUsr"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorEditJugadas"
+        android:textColorHighlight="@color/colorEditJugadas"
+        android:textColorHint="#90A4AE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/id_etxt_regusr_pass"
+        android:layout_width="387dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints="password"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/strTxt_Pass"
+        android:inputType="textPassword"
+        android:textColor="@color/colorEditJugadas"
+        android:textColorHighlight="@color/colorEditJugadas"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_etxt_usr_regusr" />
+
+    <EditText
+        android:id="@+id/id_etxt_regusr_passR"
+        android:layout_width="387dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/strRPass"
+        android:inputType="textPassword"
+        android:textColor="@color/colorEditJugadas"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_etxt_regusr_pass"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/id_btn_regusr_guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:background="@drawable/button_rounded"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:hint="@string/str_btn_guardar"
+        android:text="@string/str_btn_jugadasimple_fijocorrido_guardar"
+        android:textColor="#DFDADA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_etxt_regusr_passR"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/id_txtv_bloq_reloj"
+        android:layout_width="123dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:hint="@string/strTv_reloj"
+        android:textColorHint="#757575"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/id_spn_regusr"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</android.support.constraint.ConstraintLayout>
