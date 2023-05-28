@@ -1,5 +1,5 @@
 package com.example.applinelayoutlogin;
-// Commit de test en desarrollo -> desarrollo 11
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
