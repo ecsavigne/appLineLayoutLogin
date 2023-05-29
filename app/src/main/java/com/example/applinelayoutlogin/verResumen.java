@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
-import android.view.ViewGroup.MarginLayoutParams;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Pair;
 import android.view.Gravity;
@@ -74,13 +73,13 @@ public class verResumen extends AppCompatActivity {
 
     @SuppressLint("SetTextI18n")
     private void f_calcular_porciento(int idU) {
-        v_userId = (idU == 0) ? v_userId : idU;
+//        int idU = (idU == 0) ? v_userId : idU;
         Pair<Integer, Integer> pFijo, pCorr, pParlet, pCentena; // porcientos a pagar
-        pFijo = funcSistema.f_obtener_porciento_fijo(this.db, v_userId);
-        pCorr = funcSistema.f_obtener_porciento_corrido(this.db, v_userId);
-        pParlet = funcSistema.f_obtener_porciento_parlet(this.db, v_userId);
-        pCentena = funcSistema.f_obtener_porciento_centena(this.db, v_userId);
-        v_totales = funcSistema.f_obtener_totales_asoc_usr(this.db, v_userId);
+        pFijo = funcSistema.f_obtener_porciento_fijo(this.db, idU);
+        pCorr = funcSistema.f_obtener_porciento_corrido(this.db, idU);
+        pParlet = funcSistema.f_obtener_porciento_parlet(this.db, idU);
+        pCentena = funcSistema.f_obtener_porciento_centena(this.db, idU);
+        v_totales = funcSistema.f_obtener_totales_asoc_usr(this.db, idU);
         float total, miPorcLista, miPorcBote, miPorc, totalFijoLista, totalFijoBote, totalCorridoLista, totaCentenaLista,
                 totalCorridoBote, totaCentenaBote, totalParletLista, totalParletBote;
         //assert v_totales != null;
@@ -104,6 +103,7 @@ public class verResumen extends AppCompatActivity {
         miPorcBote +=  (totalParletBote * pParlet.second)/100;
 //        porcento total
         miPorc = miPorcBote + miPorcLista;
+        Toast.makeText(this, ""+ totalFijoLista + " "+ totalFijoBote+" "+totalCorridoLista, Toast.LENGTH_SHORT).show();
 
         var_tv_porclista.setText("Porciento Lista : " + funcSistema.f_redon_float(miPorcLista, 2));
         var_tv_porcbote.setText("Porciento Bote : " + funcSistema.f_redon_float(miPorcBote, 2));

@@ -775,7 +775,7 @@ public class funcSistema {
         //Obtener los limites/Topes(id, centena, fijo, corrido) para el usr(Listero) que inserta
         Quartet<Integer, Float, Float, Float> limites;
         limites = f_obtener_limite_numeros_listero(db, idUsr);
-        if(limites == null) return -2; //No existe limite
+        if(limites == null) return -3; //No existe limite
 
         for(int i = 0; i < jugada_.size(); i++) {
             //Asociar la jugada al Bote o a lista
@@ -808,7 +808,7 @@ public class funcSistema {
                 } else {
                     // el arreglo de atributo no tiene la misma longitud que el de valores
                     // el arreglo de atributo no tiene la misma longitud que el de valores
-                    if(totalCentena + jugada_.get(i).fifth > limites.second) {
+                    if((totalCentena + jugada_.get(i).fifth) > limites.second) {
                         //Calcula diferencia, completa la lista e inserta la diferencia al bote
                         float difCent = limites.second - totalCentena;
                         float aBoteCent = jugada_.get(i).fifth - difCent;
@@ -911,7 +911,7 @@ public class funcSistema {
                             };
                     idAsoc = db.crud_create("Jugada_TopeLista", atribAsociarBote, valAsociarBote);
 
-                } else if (totalfijo_Corr.first + jugada_.get(i).third > limites.third) {
+                } else if ((totalfijo_Corr.first + jugada_.get(i).third) > limites.third) {
                     //Calcula diferencia, completa la lista e inserta la diferencia al bote
                     float dif = limites.third - totalfijo_Corr.first;
                     float aBote = jugada_.get(i).third - dif;
@@ -1017,7 +1017,7 @@ public class funcSistema {
         //Obtener los limites/Topes(id, centena, fijo, corrido) para el usr(Listero) que inserta parlets
         Pair<Integer, Float> limites;
         limites = f_obtener_limite_parlets_listero(db, idUsr);
-        if(limites == null) return -2; //No existe limite
+        if(limites == null) return -3; //No existe limite
 
         for(int i = 0; i < parlets.size(); i++) {
             Float totalParlet = f_obtener_jugado_parlets(db, parlets.get(i).first, parlets.get(i).second,limites.first, idUsr);

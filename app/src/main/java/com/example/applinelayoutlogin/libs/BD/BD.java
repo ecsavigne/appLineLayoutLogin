@@ -554,7 +554,9 @@ public class BD extends SQLiteOpenHelper {
                 "\t (44,0,25,100.0,10.0,0.0),\n" +
                 "\t (45,0,14,100.0,10.0,0.0);");
     }
-
+    /**
+     * Migracion para controlar las listas_bote(Lista o Bote segun el valor del campo bote) de Jugadas
+     * */
     private void f_create_table_Jugada_TopeLista() {
         //f_drop_if_exist(this.handler, "Jugada_TopeLista");
         this.handler.execSQL("CREATE TABLE Jugada_TopeLista (\n" +
@@ -651,7 +653,9 @@ public class BD extends SQLiteOpenHelper {
                 "\t (10,25,14,333.33334);");
     }
 
-
+/**
+ * Migracion para controlar las listas_bote(Lista o Bote segun el valor del campo bote) de Parlets
+ * */
     private void f_create_table_Parlet_TopeLista() {
         //f_drop_if_exist(this.handler, "Parlet_TopeLista");
         this.handler.execSQL("CREATE TABLE Parlet_TopeLista (\n" +
@@ -769,6 +773,11 @@ public class BD extends SQLiteOpenHelper {
         this.handler.execSQL("INSERT INTO TipoUsuario (idTipoUsuario, tipoUsuario) VALUES (2, 'admin');");
     }
 
+    /**
+     * Migracion para controlar el limite permitodo de recogida(Suma de todos los parlets que han sido recogigo
+     * en parlet_topeLista debe de ser menor o igual que el limite sino coloca 1 al campo bote de parlet_topeLista)
+     * en lista de parlet por un usuario
+     * */
     private void f_create_table_TopeLista_parlet() {
         f_drop_if_exist(this.handler, "TopeLista_parlet");
         this.handler.execSQL("CREATE TABLE TopeLista_parlet (\n" +
@@ -785,6 +794,11 @@ public class BD extends SQLiteOpenHelper {
                 "\t (1,1,5000.0,NULL,NULL);");
     }
 
+    /**
+     * Migracion para controlar el limite permitodo de recogida(Suma de todos las jugadas que han sido recogiga
+     * en jugada_topeLista debe de ser menor o igual que el limite sino coloca 1 al campo bote de jugada_topeLista)
+     * en lista de Jugada por un usuario
+     * */
      private void f_create_table_TopeLista_jugada() {
             f_drop_if_exist(this.handler, "TopeLista_jugada");
             this.handler.execSQL("CREATE TABLE TopeLista_jugada (\n" +
