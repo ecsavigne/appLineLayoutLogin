@@ -6,131 +6,131 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml
+8-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml
+9-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:5:5-67
-11-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:5:22-64
+11-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:7:5-322:19
+13-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:7:5-322:19
 14        android:allowBackup="true"
-14-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:8:9-35
+14-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-15-->[com.android.support:support-compat:28.0.0] /home/edilberto/.gradle/caches/transforms-3/0b2e52951c499520cc704bc6e41bcdd6/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+15-->[com.android.support:support-compat:28.0.0] /home/ecs/.gradle/caches/transforms-3/0b2e52951c499520cc704bc6e41bcdd6/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 16        android:dataExtractionRules="@xml/data_extraction_rules"
-16-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:9:9-65
+16-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:9:9-65
 17        android:debuggable="true"
 18        android:fullBackupContent="@xml/backup_rules"
-18-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:10:9-54
+18-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:10:9-54
 19        android:icon="@mipmap/ic_launcher"
-19-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:11:9-43
+19-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:11:9-43
 20        android:label="@string/app_name"
-20-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:12:9-41
+20-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:12:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:13:9-54
+21-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:13:9-54
 22        android:supportsRtl="true"
-22-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:14:9-35
+22-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:14:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.AppLineLayoutLogin" >
-24-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:15:9-56
+24-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:15:9-56
 25        <activity
-25-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:17:9-23:20
+25-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:17:9-23:20
 26            android:name="com.example.applinelayoutlogin.bloquearDesbloquerUsuario"
-26-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:18:13-54
+26-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:18:13-54
 27            android:exported="false" >
-27-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:19:13-37
+27-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:19:13-37
 28            <meta-data
-28-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+28-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 29                android:name="android.app.lib_name"
-29-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+29-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 30                android:value="" />
-30-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+30-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 31        </activity>
 32        <activity
-32-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:24:9-30:20
+32-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:24:9-30:20
 33            android:name="com.example.applinelayoutlogin.crearUsuario"
-33-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:25:13-41
+33-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:25:13-41
 34            android:exported="false" >
-34-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:26:13-37
+34-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:26:13-37
 35            <meta-data
-35-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+35-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 36                android:name="android.app.lib_name"
-36-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+36-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 37                android:value="" />
-37-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+37-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 38        </activity>
 39        <activity
-39-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:31:9-38:20
+39-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:31:9-38:20
 40            android:name="com.example.applinelayoutlogin.verResumen"
-40-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:32:13-39
+40-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:32:13-39
 41            android:exported="false" >
-41-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:33:13-37
+41-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:33:13-37
 42            <meta-data
-42-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+42-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 43                android:name="android.app.lib_name"
-43-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+43-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 44                android:value="" />
-44-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+44-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 45        </activity>
 46        <activity
-46-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:39:9-45:20
+46-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:39:9-45:20
 47            android:name="com.example.applinelayoutlogin.definirHorarios"
-47-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:40:13-44
+47-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:40:13-44
 48            android:exported="false" >
-48-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:41:13-37
+48-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:41:13-37
 49            <meta-data
-49-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+49-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 50                android:name="android.app.lib_name"
-50-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+50-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 51                android:value="" />
-51-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+51-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 52        </activity>
 53        <activity
-53-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:46:9-52:20
+53-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:46:9-52:20
 54            android:name="com.example.applinelayoutlogin.misListas"
-54-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:47:13-38
+54-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:47:13-38
 55            android:exported="false" >
-55-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:48:13-37
+55-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:48:13-37
 56            <meta-data
-56-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+56-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 57                android:name="android.app.lib_name"
-57-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+57-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 58                android:value="" />
-58-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+58-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 59        </activity>
 60        <activity
-60-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:53:9-65:20
+60-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:53:9-65:20
 61            android:name="com.example.applinelayoutlogin.MainActivity"
-61-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:54:13-41
+61-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:54:13-41
 62            android:exported="true" >
-62-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:55:13-36
+62-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:55:13-36
 63            <intent-filter>
-63-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:56:13-60:29
+63-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:56:13-60:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:57:17-69
-64-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:57:25-66
+64-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:57:17-69
+64-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:57:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:59:17-77
-66-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:59:27-74
+66-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:59:17-77
+66-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:59:27-74
 67            </intent-filter>
 68
 69            <meta-data
-69-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+69-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 70                android:name="android.app.lib_name"
-70-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+70-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 71                android:value="" />
-71-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+71-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 72        </activity>
 73        <activity
-73-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:66:9-81:20
+73-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:66:9-81:20
 74            android:name="com.example.applinelayoutlogin.user_parlet_activity"
-74-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:67:13-49
+74-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:67:13-49
 75            android:exported="false" >
-75-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:68:13-37
+75-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:68:13-37
 76
 77            <!--
 78            <intent-filter>
@@ -141,18 +141,18 @@
 83            -->
 84
 85            <meta-data
-85-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+85-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 86                android:name="android.app.lib_name"
-86-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+86-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 87                android:value="" />
-87-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+87-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 88        </activity>
 89        <activity
-89-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:82:9-97:20
+89-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:82:9-97:20
 90            android:name="com.example.applinelayoutlogin.user_jugada_simple_Activity"
-90-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:83:13-56
+90-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:83:13-56
 91            android:exported="false" >
-91-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:84:13-37
+91-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:84:13-37
 92
 93            <!--
 94            <intent-filter>
@@ -163,18 +163,18 @@
 99            -->
 100
 101            <meta-data
-101-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+101-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 102                android:name="android.app.lib_name"
-102-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+102-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 103                android:value="" />
-103-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+103-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 104        </activity>
 105        <activity
-105-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:98:9-113:20
+105-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:98:9-113:20
 106            android:name="com.example.applinelayoutlogin.principal"
-106-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:99:13-38
+106-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:99:13-38
 107            android:exported="false" >
-107-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:100:13-37
+107-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:100:13-37
 108
 109            <!--
 110            <intent-filter>
@@ -185,18 +185,18 @@
 115            -->
 116
 117            <meta-data
-117-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+117-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 118                android:name="android.app.lib_name"
-118-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+118-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 119                android:value="" />
-119-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+119-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 120        </activity>
 121        <activity
-121-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:114:9-129:20
+121-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:114:9-129:20
 122            android:name="com.example.applinelayoutlogin.user_candado_parlet"
-122-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:115:13-48
+122-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:115:13-48
 123            android:exported="false" >
-123-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:116:13-37
+123-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:116:13-37
 124
 125            <!--
 126            <intent-filter>
@@ -207,18 +207,18 @@
 131            -->
 132
 133            <meta-data
-133-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+133-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 134                android:name="android.app.lib_name"
-134-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+134-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 135                android:value="" />
-135-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+135-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 136        </activity>
 137        <activity
-137-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:130:9-145:20
+137-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:130:9-145:20
 138            android:name="com.example.applinelayoutlogin.user_multiple_jugadas"
-138-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:131:13-50
+138-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:131:13-50
 139            android:exported="false" >
-139-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:132:13-37
+139-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:132:13-37
 140
 141            <!--
 142            <intent-filter>
@@ -229,18 +229,18 @@
 147            -->
 148
 149            <meta-data
-149-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+149-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 150                android:name="android.app.lib_name"
-150-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+150-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 151                android:value="" />
-151-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+151-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 152        </activity>
 153        <activity
-153-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:146:9-161:20
+153-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:146:9-161:20
 154            android:name="com.example.applinelayoutlogin.crearMenu"
-154-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:147:13-38
+154-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:147:13-38
 155            android:exported="false" >
-155-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:148:13-37
+155-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:148:13-37
 156
 157            <!--
 158            <intent-filter>
@@ -251,18 +251,18 @@
 163            -->
 164
 165            <meta-data
-165-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+165-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 166                android:name="android.app.lib_name"
-166-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+166-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 167                android:value="" />
-167-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+167-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 168        </activity>
 169        <activity
-169-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:162:9-177:20
+169-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:162:9-177:20
 170            android:name="com.example.applinelayoutlogin.agregarSubMenu"
-170-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:163:13-43
+170-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:163:13-43
 171            android:exported="false" >
-171-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:164:13-37
+171-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:164:13-37
 172
 173            <!--
 174            <intent-filter>
@@ -273,18 +273,18 @@
 179            -->
 180
 181            <meta-data
-181-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+181-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 182                android:name="android.app.lib_name"
-182-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+182-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 183                android:value="" />
-183-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+183-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 184        </activity>
 185        <activity
-185-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:178:9-193:20
+185-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:178:9-193:20
 186            android:name="com.example.applinelayoutlogin.crearPermisos"
-186-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:179:13-42
+186-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:179:13-42
 187            android:exported="false" >
-187-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:180:13-37
+187-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:180:13-37
 188
 189            <!--
 190            <intent-filter>
@@ -295,18 +295,18 @@
 195            -->
 196
 197            <meta-data
-197-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+197-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 198                android:name="android.app.lib_name"
-198-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+198-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 199                android:value="" />
-199-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+199-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 200        </activity>
 201        <activity
-201-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:194:9-209:20
+201-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:194:9-209:20
 202            android:name="com.example.applinelayoutlogin.asociarPermisoGrupo"
-202-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:195:13-48
+202-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:195:13-48
 203            android:exported="false" >
-203-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:196:13-37
+203-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:196:13-37
 204
 205            <!--
 206            <intent-filter>
@@ -317,18 +317,18 @@
 211            -->
 212
 213            <meta-data
-213-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+213-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 214                android:name="android.app.lib_name"
-214-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+214-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 215                android:value="" />
-215-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+215-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 216        </activity>
 217        <activity
-217-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:210:9-225:20
+217-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:210:9-225:20
 218            android:name="com.example.applinelayoutlogin.mostrarListaListeros"
-218-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:211:13-49
+218-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:211:13-49
 219            android:exported="false" >
-219-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:212:13-37
+219-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:212:13-37
 220
 221            <!--
 222            <intent-filter>
@@ -339,18 +339,18 @@
 227            -->
 228
 229            <meta-data
-229-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+229-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 230                android:name="android.app.lib_name"
-230-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+230-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 231                android:value="" />
-231-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+231-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 232        </activity>
 233        <activity
-233-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:226:9-241:20
+233-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:226:9-241:20
 234            android:name="com.example.applinelayoutlogin.registrartiro"
-234-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:227:13-42
+234-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:227:13-42
 235            android:exported="false" >
-235-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:228:13-37
+235-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:228:13-37
 236
 237            <!--
 238            <intent-filter>
@@ -361,18 +361,18 @@
 243            -->
 244
 245            <meta-data
-245-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+245-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 246                android:name="android.app.lib_name"
-246-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+246-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 247                android:value="" />
-247-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+247-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 248        </activity>
 249        <activity
-249-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:242:9-257:20
+249-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:242:9-257:20
 250            android:name="com.example.applinelayoutlogin.agregarTarifaPago"
-250-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:243:13-46
+250-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:243:13-46
 251            android:exported="false" >
-251-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:244:13-37
+251-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:244:13-37
 252
 253            <!--
 254            <intent-filter>
@@ -383,18 +383,18 @@
 259            -->
 260
 261            <meta-data
-261-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+261-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 262                android:name="android.app.lib_name"
-262-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+262-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 263                android:value="" />
-263-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+263-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 264        </activity>
 265        <activity
-265-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:258:9-273:20
+265-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:258:9-273:20
 266            android:name="com.example.applinelayoutlogin.mostararDatos"
-266-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:259:13-42
+266-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:259:13-42
 267            android:exported="false" >
-267-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:260:13-37
+267-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:260:13-37
 268
 269            <!--
 270            <intent-filter>
@@ -405,18 +405,18 @@
 275            -->
 276
 277            <meta-data
-277-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+277-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 278                android:name="android.app.lib_name"
-278-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+278-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 279                android:value="" />
-279-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+279-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 280        </activity>
 281        <activity
-281-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:274:9-289:20
+281-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:274:9-289:20
 282            android:name="com.example.applinelayoutlogin.insertarTerminal"
-282-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:275:13-45
+282-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:275:13-45
 283            android:exported="false" >
-283-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:276:13-37
+283-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:276:13-37
 284
 285            <!--
 286            <intent-filter>
@@ -427,18 +427,18 @@
 291            -->
 292
 293            <meta-data
-293-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+293-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 294                android:name="android.app.lib_name"
-294-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+294-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 295                android:value="" />
-295-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+295-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 296        </activity>
 297        <activity
-297-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:290:9-305:20
+297-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:290:9-305:20
 298            android:name="com.example.applinelayoutlogin.insertarDecenas"
-298-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:291:13-44
+298-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:291:13-44
 299            android:exported="false" >
-299-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:292:13-37
+299-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:292:13-37
 300
 301            <!--
 302            <intent-filter>
@@ -449,18 +449,18 @@
 307            -->
 308
 309            <meta-data
-309-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+309-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 310                android:name="android.app.lib_name"
-310-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+310-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 311                android:value="" />
-311-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+311-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 312        </activity>
 313        <activity
-313-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:306:9-321:20
+313-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:306:9-321:20
 314            android:name="com.example.applinelayoutlogin.insertarCentena"
-314-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:307:13-44
+314-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:307:13-44
 315            android:exported="false" >
-315-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:308:13-37
+315-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:308:13-37
 316
 317            <!--
 318            <intent-filter>
@@ -471,11 +471,11 @@
 323            -->
 324
 325            <meta-data
-325-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
+325-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:20:13-22:36
 326                android:name="android.app.lib_name"
-326-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
+326-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:21:17-52
 327                android:value="" />
-327-->/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
+327-->/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/AndroidManifest.xml:22:17-33
 328        </activity>
 329    </application>
 330

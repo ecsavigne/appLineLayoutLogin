@@ -250,6 +250,10 @@ public class insertarTerminal extends AppCompatActivity implements View.OnClickL
                     jugadaTerminales = funcSistema.f_craer_num_unidades(terminal, valF, valCorr );
                     //insertar jugadas
                     res = funcSistema.f_registrar_jugada(this.db,idUsr, jugadaTerminales );
+                    if(res == -3) {
+                        Toast.makeText(this, varGlobals.nameUsr+ " Usted no tiene limite para agregar jugada consurte con su banco", Toast.LENGTH_LONG).show();
+                        return;
+                    }
                    if(res != -2) {
                        tv_num1.setText("");
                        tv_num2.setText("");

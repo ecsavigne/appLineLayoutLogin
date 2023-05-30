@@ -4,7 +4,7 @@
             "outputFile": "com.example.applinelayoutlogin.app-mergeDebugResources-14:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/edilberto/.gradle/caches/transforms-3/fec987269e863d3838b3f502bfb71bc0/transformed/appcompat-v7-28.0.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/ecs/.gradle/caches/transforms-3/fec987269e863d3838b3f502bfb71bc0/transformed/appcompat-v7-28.0.0/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
