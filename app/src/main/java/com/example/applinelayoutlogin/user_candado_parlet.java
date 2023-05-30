@@ -220,6 +220,10 @@ public class user_candado_parlet extends AppCompatActivity implements View.OnCli
                    parletsValor.add(temp);
                 }
                 int res = funcSistema.f_registrar_parlets(admind, idUsr, parletsValor);
+                if(res == -3) {
+                    Toast.makeText(this, varGlobals.nameUsr+ " Usted no tiene limite para agregar jugada consurte con su banco", Toast.LENGTH_LONG).show();
+                    return;
+                }
                 if(res != -2) {
                     Toast.makeText(this, "Parlets agregados correctamente", Toast.LENGTH_SHORT).show();
                 } else {

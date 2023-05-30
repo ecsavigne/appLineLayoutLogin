@@ -769,13 +769,13 @@ public class funcSistema {
         String Fecha, Hora;
         Fecha = fecha_hora.f_obtenerFechaActual("GMT-5");
         Hora = fecha_hora.f_obtenerHoraActual("GMT-5");
-        int idConjunto = (idConjunto_Jugada == -1) ? f_idConjuntoJugada(db) :idConjunto_Jugada;
         int idJugada, idAsoc; //idDeJugada
 
         //Obtener los limites/Topes(id, centena, fijo, corrido) para el usr(Listero) que inserta
         Quartet<Integer, Float, Float, Float> limites;
         limites = f_obtener_limite_numeros_listero(db, idUsr);
         if(limites == null) return -3; //No existe limite
+        int idConjunto = (idConjunto_Jugada == -1) ? f_idConjuntoJugada(db) :idConjunto_Jugada;
 
         for(int i = 0; i < jugada_.size(); i++) {
             //Asociar la jugada al Bote o a lista
@@ -1010,14 +1010,14 @@ public class funcSistema {
         String Fecha, Hora;
         Fecha = fecha_hora.f_obtenerFechaActual("GMT-5");
         Hora = fecha_hora.f_obtenerHoraActual("GMT-5");
-        //int idConjunto = f_idConjuntoJugada(db);
-        int idConjunto = (idConjunto_Jugada == -1) ? f_idConjuntoJugada(db) : idConjunto_Jugada;
         int idJugada, idAsoc; //idDeJugada
 
         //Obtener los limites/Topes(id, centena, fijo, corrido) para el usr(Listero) que inserta parlets
         Pair<Integer, Float> limites;
         limites = f_obtener_limite_parlets_listero(db, idUsr);
         if(limites == null) return -3; //No existe limite
+        //int idConjunto = f_idConjuntoJugada(db);
+        int idConjunto = (idConjunto_Jugada == -1) ? f_idConjuntoJugada(db) : idConjunto_Jugada;
 
         for(int i = 0; i < parlets.size(); i++) {
             Float totalParlet = f_obtener_jugado_parlets(db, parlets.get(i).first, parlets.get(i).second,limites.first, idUsr);

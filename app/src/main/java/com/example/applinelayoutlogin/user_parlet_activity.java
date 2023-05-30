@@ -248,6 +248,10 @@ public class user_parlet_activity extends AppCompatActivity implements View.OnCl
                     Triplet<Integer, Integer, Float> temp = new Triplet<>(numero1, numero2, apuesta);
                     parlets.add(temp);
                     int res = funcSistema.f_registrar_parlets(this.admind, varGlobals.idUsr, parlets);
+                    if(res == -3) {
+                        Toast.makeText(this, varGlobals.nameUsr+ " Usted no tiene limite para agregar jugada consurte con su banco", Toast.LENGTH_LONG).show();
+                        return;
+                    }
                     if(res != -2) {
                         //Limpiar mis registros y asignar el foco a "numero"
                         tv_num1.setText("");

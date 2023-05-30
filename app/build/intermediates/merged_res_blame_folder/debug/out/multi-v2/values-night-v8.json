@@ -4,7 +4,7 @@
             "outputFile": "com.example.applinelayoutlogin.app-mergeDebugResources-14:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/edilberto/.gradle/caches/transforms-3/fec987269e863d3838b3f502bfb71bc0/transformed/appcompat-v7-28.0.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/ecs/.gradle/caches/transforms-3/fec987269e863d3838b3f502bfb71bc0/transformed/appcompat-v7-28.0.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/edilberto/AndroidStudioProjects/appLineLayoutLogin/app/src/main/res/values-night/themes.xml",
+                    "source": "/home/ecs/AndroidStudioProjects/appLineLayoutLogin/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

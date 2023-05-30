@@ -207,6 +207,10 @@ public class insertarCentena extends AppCompatActivity implements View.OnClickLi
                 if(numero1 > 0 && ( apuesta > 0)) {
                     //insertar
                     res = funcSistema.f_registrar_jugada(this.db, idUsr, jugada_);
+                    if(res == -3) {
+                        Toast.makeText(this, varGlobals.nameUsr+ " Usted no tiene limite para agregar jugada consurte con su banco", Toast.LENGTH_LONG).show();
+                        return;
+                    }
                     if(res != -2) {
                         // en base
                         // de datos

@@ -244,7 +244,7 @@ public class user_jugada_simple_Activity extends AppCompatActivity implements Vi
                 if(numero > 0 && (fijo > 0 || corrido > 0)) {       //insertar en base de datoS
                     res = funcSistema.f_registrar_jugada(admind,idUsr, jugada_ );
                 }
-                if(res != -2) {
+                if(res != -2 && res != -3) {
                         //Limpiar mis registros y asignar el foco a "numero"
                         tv_num.setText("");
                         tv_fijo.setText("");
@@ -259,7 +259,12 @@ public class user_jugada_simple_Activity extends AppCompatActivity implements Vi
                             tv_corrido.setBackgroundResource(R.drawable.edit_mostrar_rounded);
                         tv_select = 0;
                         Toast.makeText(this, "Se guardo la jugada correctamente", Toast.LENGTH_SHORT).show();
-                   } else Toast.makeText(this,"No se pudo guarda la jugada Revisela. Tenga en cuenta que el usuario debe tener limites asociados", Toast.LENGTH_LONG).show();
+                   } else {
+                    if(res == -2)
+                        Toast.makeText(this, "No se pudo guarda la jugada Revisela. Tenga en cuenta que el usuario debe tener limites asociados", Toast.LENGTH_LONG).show();
+                    if(res == -3)
+                        Toast.makeText(this, varGlobals.nameUsr+ " Usted no tiene limite para agregar jugada consurte con su banco", Toast.LENGTH_LONG).show();
+                }
                  break;
         }
     }

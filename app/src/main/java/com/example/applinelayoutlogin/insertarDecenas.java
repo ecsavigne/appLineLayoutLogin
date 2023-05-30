@@ -251,6 +251,10 @@ public class insertarDecenas extends AppCompatActivity implements View.OnClickLi
                     jugadaDecenas = funcSistema.f_craer_num_decena(decena, valF, valCorr);
                     //Insertar jugadas
                     res = funcSistema.f_registrar_jugada(this.db,idUsr, jugadaDecenas );
+                    if(res == -3) {
+                        Toast.makeText(this, varGlobals.nameUsr+ " Usted no tiene limite para agregar jugada consurte con su banco", Toast.LENGTH_LONG).show();
+                        return;
+                    }
                     if(res != -2){
                         // de datos
                         tv_num1.setText("");

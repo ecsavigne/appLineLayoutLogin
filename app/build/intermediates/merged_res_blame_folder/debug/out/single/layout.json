@@ -1,122 +1,114 @@
 [
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_candado_parlet.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_user_candado_parlet.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_insertar_centena.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_insertar_centena.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_principal.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_principal.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_insertar_decenas.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_insertar_decenas.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_insertar_centena.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_insertar_centena.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_menu.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_menu.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_menu.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_menu.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/layout_lv_test.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/layout_lv_test.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mis_listas.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_mis_listas.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_agregar_sub_menu.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_agregar_sub_menu.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_agregar_sub_menu.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_agregar_sub_menu.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_agregar_tarifa_pago.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_agregar_tarifa_pago.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_insertar_decenas.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_insertar_decenas.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_insertar_terminal.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_insertar_terminal.xml"
+    },
+    {
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_registrartiro.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_registrartiro.xml"
     },
     {
         "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_ver_resumen.xml",
         "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_ver_resumen.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_usuario.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_usuario.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_definir_horarios.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_definir_horarios.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mostarar_datos.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_mostarar_datos.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_jugada_simple.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_user_jugada_simple.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_definir_horarios.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_definir_horarios.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/listview_item_candadoparlet.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/listview_item_candadoparlet.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_asociar_permiso.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_asociar_permiso.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_multiple_jugadas.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_user_multiple_jugadas.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_multiple_jugadas.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_user_multiple_jugadas.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_asociar_permiso.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_asociar_permiso.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_registrartiro.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_registrartiro.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_bloquear_desbloquer_usuario.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_bloquear_desbloquer_usuario.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_bloquear_desbloquer_usuario.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_bloquear_desbloquer_usuario.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mostrar_lista_listeros.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_mostrar_lista_listeros.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_parlet.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_user_parlet.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_grupo.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_grupo.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_main.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_main.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mostarar_datos.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_mostarar_datos.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mostrar_tiro.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_mostrar_tiro.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_usuario.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_usuario.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_agregar_tiro_simple.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_agregar_tiro_simple.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mostrar_tiro.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_mostrar_tiro.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_insertar_terminal.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_insertar_terminal.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_main.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_grupo.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_grupo.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_permisos.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_permisos.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_jugada_simple.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_user_jugada_simple.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/listview_item_multiplesjugadas.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/listview_item_multiplesjugadas.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/listview_item_multiplesjugadas.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/listview_item_multiplesjugadas.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_candado_parlet.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_user_candado_parlet.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/layout_lv_test.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/layout_lv_test.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_user_parlet.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_user_parlet.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/layout_spn.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/layout_spn.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_principal.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_principal.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/listview_item_candadoparlet.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/listview_item_candadoparlet.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mis_listas.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/activity_mis_listas.xml"
     },
     {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_agregar_tarifa_pago.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_agregar_tarifa_pago.xml"
-    },
-    {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_crear_permisos.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_crear_permisos.xml"
-    },
-    {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_ver_resumen.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_ver_resumen.xml"
-    },
-    {
-        "merged": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/activity_mostrar_lista_listeros.xml",
-        "source": "/home/edilberto/.gradle/daemon/8.0/com.example.applinelayoutlogin.app-main-18:/layout/activity_mostrar_lista_listeros.xml"
+        "merged": "com.example.applinelayoutlogin.app-mergeDebugResources-15:/layout/layout_spn.xml",
+        "source": "com.example.applinelayoutlogin.app-main-18:/layout/layout_spn.xml"
     }
 ]
