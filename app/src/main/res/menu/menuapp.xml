@@ -81,6 +81,9 @@
             <item android:title="@string/strSubMenuRegistrar">
                 <menu>
                     <item
+                        android:id="@+id/idItem_Admin_Registrar_Tope_Jugada_Parlets"
+                        android:title="@string/strItemRegistrarTopeJugadaParlet" />
+                    <item
                         android:id="@+id/idItem_Admin_Registrar_Tiro"
                         android:title="@string/strItemRegistrarTiro" />
                     <item

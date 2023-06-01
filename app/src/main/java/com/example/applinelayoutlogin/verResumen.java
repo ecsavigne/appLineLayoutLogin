@@ -4,7 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Pair;
 import android.view.Gravity;
 import android.view.View;
@@ -158,8 +158,8 @@ public class verResumen extends AppCompatActivity {
         DatePickerDialog datePickerDialog = new DatePickerDialog(
                 this,
                 (view, selectedYear, selectedMonth, selectedDayOfMonth) -> {
-                    String m = ( selectedMonth < 10 ) ? "0" + selectedMonth : "" + selectedMonth;
-                    String d = ( (selectedDayOfMonth + 1) < 10 ) ? "0" + (selectedDayOfMonth + 1) : "" + (1 + selectedDayOfMonth);
+                    String m = ( selectedMonth < 10 ) ? "0" + (selectedMonth + 1) : "" + (selectedMonth + 1);
+                    String d = ( (selectedDayOfMonth) < 10 ) ? "0" + (selectedDayOfMonth) : "" + (selectedDayOfMonth);
                     String strDate = d + "/" + m + "/"+ selectedYear;
                     var_et_date.setText(strDate);
                     f_cargar_resumen();

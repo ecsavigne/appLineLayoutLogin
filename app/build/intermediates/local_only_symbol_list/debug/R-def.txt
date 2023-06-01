@@ -46,6 +46,7 @@ id idItem_Admin_Permiso_Eliminar
 id idItem_Admin_Permiso_Modificar
 id idItem_Admin_Registrar_TarifaPago
 id idItem_Admin_Registrar_Tiro
+id idItem_Admin_Registrar_Tope_Jugada_Parlets
 id idItem_Admin_SubMenu_Crear
 id idItem_Admin_SubMenu_Eliminar
 id idItem_Admin_SubMenu_Modificar
@@ -164,9 +165,15 @@ id id_btn_parlet_9
 id id_btn_parlet_borrar
 id id_btn_parlet_guardar
 id id_btn_parlet_pto
+id id_btn_registrar_tope
 id id_btn_registrartiro_guardar
 id id_btn_regusr_guardar
 id id_checkb_bloqUsr
+id id_et_registrar_tope_centena
+id id_et_registrar_tope_corr
+id id_et_registrar_tope_datepicker
+id id_et_registrar_tope_fijo
+id id_et_registrar_tope_parlet
 id id_etxt_registrartiro_cent
 id id_etxt_registrartiro_corr1
 id id_etxt_registrartiro_corr2
@@ -180,6 +187,9 @@ id id_layout_spn_tv
 id id_linlay_lv_test_corrido
 id id_linlay_lv_test_fijo
 id id_linlay_lv_test_num
+id id_ll_registrar_tope_block1
+id id_ll_registrar_tope_block2
+id id_ll_registrar_tope_block3
 id id_lv_candadoparlet
 id id_lv_mostrar
 id id_lv_multiplejugadas
@@ -193,6 +203,8 @@ id id_resumen_tv_total
 id id_sp_resumen_usr
 id id_spn_admin_mostrardatos
 id id_spn_bloqUsr_usrs
+id id_spn_registrar_tope_listero
+id id_spn_registrar_tope_tipo
 id id_spn_regusr
 id id_tv_candadoparlet_apuesta
 id id_tv_candadoparlet_num
@@ -254,6 +266,7 @@ layout activity_mostarar_datos
 layout activity_mostrar_lista_listeros
 layout activity_mostrar_tiro
 layout activity_principal
+layout activity_registrar_topes
 layout activity_registrartiro
 layout activity_user_candado_parlet
 layout activity_user_jugada_simple
@@ -327,6 +340,7 @@ string strItemMostrarTarifaPago
 string strItemMostrarTiro
 string strItemRegistrarTarifaPago
 string strItemRegistrarTiro
+string strItemRegistrarTopeJugadaParlet
 string strItemUsuarioBloq
 string strItemUsuarioDesbloq
 string strItemUsuarioEliminar
@@ -417,8 +431,12 @@ string str_btn_jugadasimple_fijocorrido_pto
 string str_btn_jugadasimple_pto
 string str_btn_pto
 string str_contentDescription
+string str_et_centena
+string str_et_corrido
 string str_et_fecha
+string str_et_fijo
 string str_et_hora
+string str_et_parlet
 string str_global_btn_guardar
 string str_global_contentDescription
 string str_global_corr

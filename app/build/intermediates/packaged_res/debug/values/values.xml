@@ -69,6 +69,7 @@
     <string name="strItemMostrarTiro">Tiro</string>
     <string name="strItemRegistrarTarifaPago">Tarifa de pago</string>
     <string name="strItemRegistrarTiro">Tiro</string>
+    <string name="strItemRegistrarTopeJugadaParlet">Tope jugada o parlets</string>
     <string name="strItemUsuarioBloq">Bloquear usuario</string>
     <string name="strItemUsuarioDesbloq">Desbloquear usuario</string>
     <string name="strItemUsuarioEliminar">Eliminar usuario</string>
@@ -159,8 +160,12 @@
     <string name="str_btn_jugadasimple_pto">.</string>
     <string name="str_btn_pto">.</string>
     <string name="str_contentDescription">descripcion</string>
+    <string name="str_et_centena">Centena</string>
+    <string name="str_et_corrido">Corrido</string>
     <string name="str_et_fecha">Selec. fecha</string>
+    <string name="str_et_fijo">Fijo</string>
     <string name="str_et_hora">Sel. hora</string>
+    <string name="str_et_parlet">Parlet</string>
     <string name="str_global_btn_guardar">Guardar Jugada</string>
     <string name="str_global_contentDescription">descripcion</string>
     <string name="str_global_corr">Corrido</string>

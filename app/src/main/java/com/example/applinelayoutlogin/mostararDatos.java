@@ -3,7 +3,7 @@ package com.example.applinelayoutlogin;
 import android.annotation.SuppressLint;
 import android.database.Cursor;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Pair;
 import android.util.TypedValue;
@@ -171,7 +171,8 @@ public class mostararDatos extends AppCompatActivity{
         if(varGlobals.src.equals("mostararList") || varGlobals.src.equals("mostararBotes")){
             //Convertir de Dp a PX testeado
             float dp = 20;
-            float px =  (dp - 5) * this.getResources().getDisplayMetrics().density;
+//            float px =  (dp - 5) * this.getResources().getDisplayMetrics().density;
+            float px =  dp  * (this.getResources().getDisplayMetrics().density / 160);
 
             //Crear TextView Totales
             v_tv_totals = new TextView(this);
